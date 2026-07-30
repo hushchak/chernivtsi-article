@@ -40,6 +40,11 @@ section {
   gap: 1rem;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -51,6 +56,12 @@ h1 {
   font-size: 5rem;
   font-weight: 400;
   letter-spacing: -0.25rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: -0.1rem;
 }
 
 a:link,
@@ -74,3 +85,17 @@ a:hover {
   grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
 }
 
+.history .content {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.history .content > p {
+  padding-right: 10%;
+}
+
+.history .content > p:first-of-type {
+  padding-right: 0;
+  padding-left: 10%;
+}
