@@ -99,3 +99,21 @@ a:hover {
   padding-right: 0;
   padding-left: 10%;
 }
+
+.sighs .content {
+  height: 100%;
+  display: grid;
+  grid-template: 500px 1fr 48px/ repeat(3, 1fr) 0.25fr;
+  gap: 1rem
+}
+
+.sighs .image-container {
+  height: 80%;
+}
+
+.sighs ul {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
